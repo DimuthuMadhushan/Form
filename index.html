@@ -23,23 +23,23 @@
                 <img class="logo-img" src="./img/Logo.svg" alt="">
                 <p class="header-text">We'd love to hear from you.</p>
                 <p class="first-nametext text">First Name*</p>
-                <input class="first-name-input" type="text" placeholder="Please type your first name">
+                <input class="first-name-input" id="fname" type="text" placeholder="Please type your first name">
                 <p class="othertext text">Last Name*</p>
-                <input class="input" type="text" placeholder="Please type your last name">
+                <input class="input" id="lname" type="text" placeholder="Please type your last name">
                 <p class="othertext text">Email address*</p>
-                <input class="input" type="text" placeholder="Please type your email address">
-                <p class="error">Invalid email address</p>
+                <input class="input" id="email" type="text" placeholder="Please type your email address">
+                <p class="error"n id="invalidmail">&nbsp</p>
                 <p class="othertext text">Address*</p>
-                <input class="input" type="text" placeholder="Please type your address">
+                <input class="input" id="address" type="text" placeholder="Please type your address">
                 <br/>
-                <button class="btn">Submit</button>
+                <button class="btn" onclick="handleSubmit()">Submit</button>
             </div>
             <div class="image-container">
                 <img src="./img/jordan-steranka-lpddCskeg4A-unsplash.png" alt="">
             </div>
         </div>
         <div class="test"></div>
-    
+    <script src="script.js"></script>
 </body>
 
 </html>

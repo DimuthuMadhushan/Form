@@ -113,7 +113,14 @@
     color: #05253C;
     letter-spacing: 0px;
     opacity: 1;
+    cursor: pointer;
 
+}
+.btn:hover{
+    transition: 0.4s;
+    border: 1px solid #FFDC47;
+    background: none;
+    color: #FFDC47;
 }
 @media screen and (max-width:1000px) {
     .logo-img{
@@ -160,17 +167,21 @@
 }
     @media screen and (max-width:600px) {
         .form{
-            display: block;border: 1px solid red;
+            display: block;
             width: 100%;
         }
         .image-container{
+            flex: none;
             position: relative;
             top: 100px;
         }
+        .text-container{
+            flex: none;
+        }
         .header-text{
-            font-size: 2rem;
+            font-size: 1.8rem;
             left: 10%;
-            width: 90%;
+            width: 92%;
     
         }
 }
