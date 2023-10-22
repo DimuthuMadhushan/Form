@@ -12,6 +12,7 @@ function handleSubmit(){
             document.getElementById('lname').value='';
             document.getElementById('email').value='';
             document.getElementById('address').value='';
+            document.getElementById('invalidmail').innerHTML="&nbsp";
         }else{
             document.getElementById('invalidmail').innerHTML="Invalid email address";
             document.getElementById('email').style.color='#FF0000';
