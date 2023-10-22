@@ -8,6 +8,10 @@ function handleSubmit(){
     if(firstname!=='' & lastname!=='' & email!=='' & address!==''){
         if(validateEmail(email)){
             alert("Successfully submitted");
+            document.getElementById('fname').value='';
+            document.getElementById('lname').value='';
+            document.getElementById('email').value='';
+            document.getElementById('address').value='';
         }else{
             document.getElementById('invalidmail').innerHTML="Invalid email address";
             document.getElementById('email').style.color='#FF0000';
