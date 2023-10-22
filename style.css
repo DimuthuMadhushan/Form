@@ -1,0 +1,176 @@
+.form{
+    width: 100%;
+    height: 768px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -9px;
+
+}
+.text-container{
+    flex: 783;
+}
+.image-container{
+    flex: 583;
+}
+.image-container img{
+    width: 100%;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logo-img{
+    position: relative;
+    top: 81px;
+    left: 62px;
+    width: 76px;
+    height: 76px;
+}
+.header-text{
+    font-family: 'Manrope';
+    font-size: 40px;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #05253C;
+    position: relative;
+    left: 62px;
+    margin-top: 101px;
+    width: 471px;
+    height: 55px;
+}
+.text{
+    position: relative;
+    left: 62px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #05253C;
+    opacity: 1;
+    height: 21px;
+}
+.first-nametext{
+    top: -7px;
+    width: 90px;
+}
+.first-name-input{
+    position: relative;
+    left: 62px;
+    height: 20px;
+    width: 444px;
+    top: -10px;
+    border: none;
+    border-bottom: 1px solid #EBEBEB;
+    outline: none;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    color: #05253C;
+    opacity: 1;
+    
+}
+.input{
+    position: relative;
+    left: 62px;
+    height: 20px;
+    width: 444px;
+    top: 10px;
+    border: none;
+    border-bottom: 1px solid #EBEBEB;
+    outline: none;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    color: #05253C;
+    opacity: 1;
+}
+.othertext{
+    top: 15px;
+    width: 120px;
+}
+::placeholder{
+    color: #DBDBDB;
+    opacity: 1;
+}
+.error{
+    position: relative;
+    left: 387px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #FF0000;
+    opacity: 1;
+    margin-bottom: -25px;
+}
+.btn{
+    position: relative;
+    background: #FFDC47;
+    border: none;
+    outline: none;
+    width: 168px;
+    height: 45px;
+    left: 62px;
+    top: 63px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    color: #05253C;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+@media screen and (max-width:1000px) {
+    .logo-img{
+        position: relative;
+        left: 10%;
+    }
+
+    .header-text{
+        font-size: 200%;
+        left: 10%;
+
+    }
+    .text{
+        left: 10%;
+    }
+
+    .first-name-input{
+        left: 10%;
+        width: 80%;
+        
+    }
+    .input{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+    .error{
+        left: 65%;
+    }
+    .btn{
+        left: 10%;
+        top: 63px;
+
+    
+    }
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+    .image-container img{
+        margin-top: 20%;
+        height: 80%;
+        width: 200%;
+
+    }
+}
+    @media screen and (max-width:600px) {
+        .form{
+            display: block;border: 1px solid red;
+            width: 100%;
+        }
+        .image-container{
+            position: relative;
+            top: 100px;
+        }
+        .header-text{
+            font-size: 2rem;
+            left: 10%;
+            width: 90%;
+    
+        }
+}
